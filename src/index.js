@@ -7,17 +7,17 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  ["docker.gtcguizhou.cn"]: dockerHub,
-  ["quay.gtcguizhou.cn"]: "https://quay.io",
-  ["gcr.gtcguizhou.cn"]: "https://gcr.io",
-  ["k8s-gcr.gtcguizhou.cn"]: "https://k8s.gcr.io",
-  ["k8s.gtcguizhou.cn"]: "https://registry.k8s.io",
-  ["ghcr.gtcguizhou.cn"]: "https://ghcr.io",
-  ["cloudsmith.gtcguizhou.cn"]: "https://docker.cloudsmith.io",
-  ["ecr.gtcguizhou.cn"]: "https://public.ecr.aws",
+  "docker.gtcguizhou.cn": dockerHub,
+  "quay.gtcguizhou.cn": "https://quay.io",
+  "gcr.gtcguizhou.cn": "https://gcr.io",
+  "k8s-gcr.gtcguizhou.cn": "https://k8s.gcr.io",
+  "k8s.gtcguizhou.cn": "https://registry.k8s.io",
+  "ghcr.gtcguizhou.cn": "https://ghcr.io",
+  "cloudsmith.gtcguizhou.cn": "https://docker.cloudsmith.io",
+  "ecr.gtcguizhou.cn": "https://public.ecr.aws",
 
   // staging
-  ["docker-staging.gtcguizhou.cn"]: dockerHub,
+  "docker-staging.gtcguizhou.cn": dockerHub,
 };
 
 function routeByHosts(host) {
